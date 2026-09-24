@@ -1,0 +1,59 @@
+@{
+    ViewBag.Title = "Contact";
+}
+
+<h2>Contact Us</h2>
+
+<hr />
+
+<p>
+    Have any questions? Contact FoodHub.
+</p>
+
+<form>
+
+    <div class="form-group">
+
+        <label>Name</label>
+
+        <input type="text"
+               class="form-control"
+               placeholder="Enter your name" />
+
+    </div>
+
+    <br />
+
+    <div class="form-group">
+
+        <label>Email</label>
+
+        <input type="email"
+               class="form-control"
+               placeholder="Enter your email" />
+
+    </div>
+
+    <br />
+
+    <div class="form-group">
+
+        <label>Message</label>
+
+        <textarea class="form-control"
+                  rows="5"
+                  placeholder="Enter your message"></textarea>
+
+    </div>
+
+    <br />
+
+    <button type="button"
+            class="btn btn-primary"
+            onclick="alert('Message sent successfully!')">
+
+        Send Message
+
+    </button>
+
+</form>
